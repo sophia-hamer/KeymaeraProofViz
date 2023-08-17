@@ -22,7 +22,11 @@ conda install networkx
 dot -c
 ```
 ## Usage
-KeymaeraProofViz takes in any number of .kyx proof tactic files and produces a graph visualization and highlighted HTML version of each one. It accepts the following command line options:
+KeymaeraProofViz takes in any number of .kyx proof tactic files and produces a graph visualization and highlighted HTML version of each one.
+
+`keymaera_proof_viz.py [-h] [--outdir OUTDIR] [--Gnodesep N] [--Granksep N] FILE [FILE ...]`
+
+It accepts the following command line options:
 ```
 -h, --help       print a help message and exit
 --outdir OUTDIR  changes the file output directory to OUTDIR instead of the current directory
