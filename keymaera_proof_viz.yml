@@ -1,0 +1,9 @@
+name: keymaera_proof_viz
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - matplotlib
+  - pygraphviz
+  - lark
+  - networkx
